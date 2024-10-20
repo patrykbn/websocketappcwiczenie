@@ -74,6 +74,17 @@ p {
   align-items: flex-start;
 }
 
+.message--alert{
+    align-items: center;
+    animation: fadeIn;
+    animation-duration: 3s;
+}
+
+.alert{
+    font-style: italic;
+    font-size: 30%;
+}
+
 .message--self {
   align-items: flex-end;
 }
